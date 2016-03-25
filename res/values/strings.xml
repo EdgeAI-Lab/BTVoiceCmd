@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">机器人语音命令</string>
+    <string name="app_id">56833e66</string>
+    <string name="text_begin">请开始说话…</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

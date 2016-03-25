@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#0D2B4D">
+    
+	<TextView 
+	    android:id="@+id/tHelp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:textSize="20sp"
+	    android:maxLines = "100"
+		android:scrollbars = "vertical"
+	    android:textColor="#FB4FB7"
+	    android:text="语音指令：\n\n
+
+前进\n
+后退\n\n
+
+向左转(左转弯)\n
+向右转(右转弯)\n\n
+
+向前滑行\n
+向后滑行\n\n
+
+向左转头\n
+向右转头\n
+摇头\n\n
+
+抬起左臂\n
+放下左臂\n\n
+
+抬起右臂\n
+放下右臂\n\n
+
+向左摆动左手腕(左手腕向左摆)\n
+向右摆动左手腕(左手腕向右摆)\n
+摆动左手腕\n\n
+
+向左摆动右手腕(右手腕向左摆)\n
+向右摆动右手腕(右手腕向右摆)\n
+摆动右手腕\n\n
+
+摆动腰部\n\n
+
+加速\n
+减速\n\n
+
+停止\n\n
+
+-------------------------------------------------------\n\n
+
+指令编码：\n\n
+
+//机器人整体运动\n
+#define RobotWalkForward   1\n
+#define RobotWalkBackward  2\n
+#define RobotTurnLeft      3\n
+#define RobotTurnRight     4\n
+#define RobotSlideForward  5  //滑行\n
+#define RobotSlideBackward 6  //滑行\n\n
+
+//头部\n
+#define HeadTurnLeft       7\n
+#define HeadTurnRight      8\n
+#define HeadSwing          9\n\n
+
+//机器人手臂独立运动\n
+#define LeftArmUp	       10\n
+#define LeftArmDown        11\n
+#define RightArmUp         12\n
+#define RightArmDown       13\n\n
+
+//手腕\n
+#define LeftWristInside    14\n
+#define LeftWristOutside   15\n
+#define LeftWristSwing     16\n
+#define RightWristInside   17\n
+#define RightWristOutside  18\n
+#define RightWristSwing    19\n\n
+
+//腰部\n
+#define WaistSwing         20\n\n
+
+#define SpeedUp            21\n
+#define SpeedDown          22\n\n 
+
+//停止机器人所有关节\n
+#define AllJointMotorStop  23\n\n"
+	
+	/>
+</LinearLayout>
