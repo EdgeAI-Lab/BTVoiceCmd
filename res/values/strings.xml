@@ -4,6 +4,10 @@
     <string name="app_name">机器人语音命令</string>
     <string name="app_id">56833e66</string>
     <string name="text_begin">请开始说话…</string>
+    <string name="cmd">命令</string>
+    <string name="click_speech">点击说话</string>
+    <string name="connect_bt">连接蓝牙</string>
+    <string name="help">帮助</string>
     <string name="action_settings">Settings</string>
 
 </resources>

@@ -49,9 +49,13 @@ public final class R {
         public static final int main=0x7f070000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050003;
+        public static final int action_settings=0x7f050007;
         public static final int app_id=0x7f050001;
         public static final int app_name=0x7f050000;
+        public static final int click_speech=0x7f050004;
+        public static final int cmd=0x7f050003;
+        public static final int connect_bt=0x7f050005;
+        public static final int help=0x7f050006;
         public static final int text_begin=0x7f050002;
     }
     public static final class style {

@@ -104,9 +104,10 @@ public class MainActivity extends Activity {
         		_bluetooth.enable();
     		   }
     	   }   	   
-       }.start();   
+       }.start();
+       
+       
 	}
-
 	
 	/**
 	 * 初始化语音识别监听器。
@@ -247,13 +248,13 @@ public class MainActivity extends Activity {
                 	try{
                 		isConnectBT = false;
 //                		Toast.makeText(this, "连接失败！", Toast.LENGTH_SHORT).show();
-                		mTts.startSpeaking("蓝牙连接失败", mTtsListener);
+                		mTts.startSpeaking("蓝牙连接失败，请确认设备是否开启", mTtsListener);
                 		_socket.close();
                 		_socket = null;
                 	}catch(IOException ee){
                 		isConnectBT = false;
 //                		Toast.makeText(this, "连接失败！", Toast.LENGTH_SHORT).show();
-                		mTts.startSpeaking("蓝牙连接失败", mTtsListener);
+                		mTts.startSpeaking("蓝牙连接失败，请确认设备是否开启", mTtsListener);
                 	}
                 	
                 	return;
